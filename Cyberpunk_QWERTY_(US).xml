@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyboard_layout name="Cyberpunk_QWERTY_US" theme="Cyberpunk" version="1.0">
+  <description>A standard US QWERTY keyboard layout with a futuristic, cyberpunk aesthetic. Key codes are based on web standards.</description>
+  
+  <!-- Number Row -->
+  <row id="0">
+    <key code="Backquote" char="`" shift_char="~" style="accent" />
+    <key code="Digit1" char="1" shift_char="!" />
+    <key code="Digit2" char="2" shift_char="@" />
+    <key code="Digit3" char="3" shift_char="#" />
+    <key code="Digit4" char="4" shift_char="$" />
+    <key code="Digit5" char="5" shift_char="%" />
+    <key code="Digit6" char="6" shift_char="^" />
+    <key code="Digit7" char="7" shift_char="&amp;" />
+    <key code="Digit8" char="8" shift_char="*" />
+    <key code="Digit9" char="9" shift_char="(" />
+    <key code="Digit0" char="0" shift_char=")" />
+    <key code="Minus" char="-" shift_char="_" />
+    <key code="Equal" char="=" shift_char="+" />
+    <key code="Backspace" char="Backspace" special="true" style="function" width="2.0" />
+  </row>
+  
+  <!-- Top Letter Row (QWERTY) -->
+  <row id="1">
+    <key code="Tab" char="Tab" special="true" style="function" width="1.5" />
+    <key code="KeyQ" char="q" shift_char="Q" />
+    <key code="KeyW" char="w" shift_char="W" />
+    <key code="KeyE" char="e" shift_char="E" />
+    <key code="KeyR" char="r" shift_char="R" />
+    <key code="KeyT" char="t" shift_char="T" />
+    <key code="KeyY" char="y" shift_char="Y" />
+    <key code="KeyU" char="u" shift_char="U" />
+    <key code="KeyI" char="i" shift_char="I" />
+    <key code="KeyO" char="o" shift_char="O" />
+    <key code="KeyP" char="p" shift_char="P" />
+    <key code="BracketLeft" char="[" shift_char="{" />
+    <key code="BracketRight" char="]" shift_char="}" />
+    <key code="Backslash" char="\" shift_char="|" style="accent" width="1.5" />
+  </row>
+  
+  <!-- Home Row -->
+  <row id="2">
+    <key code="CapsLock" char="Caps Lock" special="true" style="function" width="1.75" />
+    <key code="KeyA" char="a" shift_char="A" />
+    <key code="KeyS" char="s" shift_char="S" />
+    <key code="KeyD" char="d" shift_char="D" />
+    <key code="KeyF" char="f" shift_char="F" />
+    <key code="KeyG" char="g" shift_char="G" />
+    <key code="KeyH" char="h" shift_char="H" />
+    <key code="KeyJ" char="j" shift_char="J" />
+    <key code="KeyK" char="k" shift_char="K" />
+    <key code="KeyL" char="l" shift_char="L" />
+    <key code="Semicolon" char=";" shift_char=":" />
+    <key code="Quote" char="'" shift_char="&quot;" />
+    <key code="Enter" char="Enter" special="true" style="function" width="2.25" />
+  </row>
+  
+  <!-- Bottom Letter Row -->
+  <row id="3">
+    <key code="ShiftLeft" char="Shift" special="true" style="function" width="2.25" />
+    <key code="KeyZ" char="z" shift_char="Z" />
+    <key code="KeyX" char="x" shift_char="X" />
+    <key code="KeyC" char="c" shift_char="C" />
+    <key code="KeyV" char="v" shift_char="V" />
+    <key code="KeyB" char="b" shift_char="B" />
+    <key code="KeyN" char="n" shift_char="N" />
+    <key code="KeyM" char="m" shift_char="M" />
+    <key code="Comma" char="," shift_char="&lt;" />
+    <key code="Period" char="." shift_char="&gt;" />
+    <key code="Slash" char="/" shift_char="?" />
+    <key code="ShiftRight" char="Shift" special="true" style="function" width="2.75" />
+  </row>
+  
+  <!-- Spacebar Row -->
+  <row id="4">
+    <key code="ControlLeft" char="Ctrl" special="true" style="function" width="1.25" />
+    <key code="MetaLeft" char="Meta" special="true" style="function" width="1.25" />
+    <key code="AltLeft" char="Alt" special="true" style="function" width="1.25" />
+    <key code="Space" char=" " special="false" width="6.25" style="spacebar" />
+    <key code="AltRight" char="Alt" special="true" style="function" width="1.25" />
+    <key code="MetaRight" char="Meta" special="true" style="function" width="1.25" />
+    <key code="ContextMenu" char="Menu" special="true" style="function" width="1.25" />
+    <key code="ControlRight" char="Ctrl" special="true" style="function" width="1.25" />
+  </row>
+</keyboard_layout>

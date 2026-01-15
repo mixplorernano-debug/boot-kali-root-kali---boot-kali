@@ -1,0 +1,5 @@
+{
+  "name": "Kali Command Simulator",
+  "description": "An interactive terminal that simulates the output of Kali Linux commands using the Gemini API. Type a command and see a realistic-looking output generated in real-time.",
+  "requestFramePermissions": []
+}
